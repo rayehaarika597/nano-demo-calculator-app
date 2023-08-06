@@ -9,11 +9,11 @@ def greeting():
 
 @app.route("/calculator/add", methods=['POST'])
 def add():
-    return ''
+    return 'a+b'
 
 @app.route("/calculator/subtract", methods=['POST'])
 def subtract():
-    return ''
+    return 'a-b'
 
 if __name__ == '__main__':
     app.run(port=8080,host='0.0.0.0')
